@@ -41,6 +41,7 @@ _LAZY_SUBAPPS: list[tuple[str, str, str]] = [
     ("benchmark", "nemo_retriever.utils.benchmark", "app"),
     ("harness", "nemo_retriever.harness", "app"),
     ("recall", "nemo_retriever.recall", "app"),
+    ("skill-eval", "nemo_retriever.skill_eval", "app"),
     ("txt", "nemo_retriever.txt.__main__", "app"),
     ("html", "nemo_retriever.html.__main__", "app"),
     ("pipeline", "nemo_retriever.pipeline.__main__", "app"),
